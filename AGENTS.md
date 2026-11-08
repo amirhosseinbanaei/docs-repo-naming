@@ -86,7 +86,7 @@ Run the checker on every name you propose. Pass `--owner` so the owner rules app
 scripts/check-repo-name.sh --owner acme client-globex-web
 
 # from anywhere, without cloning
-curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming-structure/main/scripts/check-repo-name.sh \
+curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/docs-repo-naming/main/scripts/check-repo-name.sh \
   | bash -s -- --owner acme client-globex-web
 ```
 

@@ -52,7 +52,7 @@ does change, such as stage, team, owner and confidentiality, goes in GitHub
 No install, no clone. Check any name:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming-structure/main/scripts/check-repo-name.sh \
+curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/docs-repo-naming/main/scripts/check-repo-name.sh \
   | bash -s -- --owner acme client-globex-web Acme_Website product-nova-api-v2 lib-ui .github
 ```
 
@@ -73,7 +73,7 @@ curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming
 Audit a whole organization or account with the [GitHub CLI](https://cli.github.com/):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming-structure/main/scripts/check-repo-name.sh \
+curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/docs-repo-naming/main/scripts/check-repo-name.sh \
   | bash -s -- --org YOUR_ORG
 ```
 
@@ -136,10 +136,10 @@ it everywhere:
 ## Repository naming
 
 Before creating, naming or renaming any GitHub repository, read and follow
-https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming-structure/main/AGENTS.md
+https://raw.githubusercontent.com/amirhosseinbanaei/docs-repo-naming/main/AGENTS.md
 and validate every proposed name first:
 
-    curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/repository-naming-structure/main/scripts/check-repo-name.sh \
+    curl -fsSL https://raw.githubusercontent.com/amirhosseinbanaei/docs-repo-naming/main/scripts/check-repo-name.sh \
       | bash -s -- --owner <owner> <name>
 
 Never create a repository whose name fails the check.
